@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React from 'react';
-import LanguageDropdown from '../components/LanguageDropdown';
+import LanguageDropdown from '../components/headerComponents/LanguageDropdown';
 
 const Topbar: React.FC = () => {
   const handleLanguageChange = (language: string) => {

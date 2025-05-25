@@ -2,10 +2,10 @@
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import SearchBar from '@/app/components/SearchBar';
-import CartIcon from '@/app/components/CartIcon';
-import WishlistIcon from '@/app/components/WishlistIcon';
-import AccountIcon from '@/app/components/AccountIcon';
+import SearchBar from '@/app/components/headerComponents/SearchBar';
+import CartIcon from '@/app/components/headerComponents/CartIcon';
+import WishlistIcon from '@/app/components/headerComponents/WishlistIcon';
+import AccountIcon from '@/app/components/headerComponents/AccountIcon';
 
 const Header = () => {
   const menuItems = ['Home', 'Contact', 'About', 'Sign Up'];
